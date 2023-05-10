@@ -1,4 +1,4 @@
-#ProbabilityAndStatisticsinCS
+# ProbabilityAndStatisticsinCS
 
 This repository contains all the work I have done in my 'CS355 Statistics and Probability in CS' course 
 at The University of Alabama at Birmingham. A majority of the work in the class was done using paper and 
