@@ -1,0 +1,30 @@
+CS355 Probability and Statistics in CS: Project 2 More Card Shuffling
+
+In this assignment I was tasked to create a program that would simulate the shuffling of a 
+deck of cards using two different methods, building more off of the Project 1 assignment we 
+did earlier in the class. For this program we were told to work in groups and split up the 
+work accordingly. I was grouped with Vaishak Menon, a classmate from UAB.
+
+The first method we were asked to use wanted us to split the deck in half to produce two 
+subdecks (1-26 and 27-52). Next, they asked us to pick the first card from either deck by 
+using equal probability (50% chance to pick either subdeck) to determine which deck to pull
+from. Once you reach the end of one of the decks, just append the remaing cards of the other 
+deck to the end of the shuffeled deck. The assignment then asked us to answer some questions 
+based off our results. This assignment wanted us to run this method on a 52 deck of cards and 
+a 104 deck of cards.
+
+The second method asked us to begin with a new deck of cards, and repeat the same method of 
+splitting the deck into two subdecks. However, this method wanted us to use the probability 
+of (num of cards in subdeck / total cards remaining) to determine the chance of picking each 
+subdeck to pick a card from. Once you have choosen the subdeck you are to pull from, just take 
+the top card from that subdeck to add to the shuffle. Once you reach the end of the deck, append 
+the rest of the remaining cards to the end of the shuffle deck. The assignment then asked us to 
+answer some questions based off our results. This assignment wanted us to run this method on 
+a 52 deck of cards and a 104 deck of cards.
+
+To see the questions that we were asked and to get more information about the program expectations
+and calculations, please refer to Program II.pdf in this repository.
+
+To run this program you might have to pip install python's "numpy.random" and "matplotlib.pyplot" 
+library to get the program to function properly. I ran mine on VS Code however it shouldn't 
+have any issues running on any other IDE, but hasn't been tested.

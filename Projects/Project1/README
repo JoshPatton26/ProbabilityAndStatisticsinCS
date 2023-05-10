@@ -1,0 +1,24 @@
+CS355 Probability and Statistics in CS: Project 1 Shuffiing Cards Using Two Different Methods
+
+In this assignment I was tasked to create a program that would simulate the shuffling of a 
+deck of 52 cards using two different methods. For this program we were told to work in groups 
+and split up the work accordingly. I was grouped with Vaishak Menon, a classmate from UAB.
+
+The first method we were asked to use wanted us to split the deck in half to produce two 
+subdecks (1-26 and 27-52). Now they wanted us to select the first card from each deck, starting 
+with the subdeck that has the first half of the cards to begin the shuffle, and continuing this 
+approach until you reach the end of the subdecks. The first card of this shuffle should be 1 and
+the last card should be 52. The assignment then asked us to answer some questions based off our 
+results.
+
+The second method asked us to begin with a new deck of cards, and repeat the same method except
+this time we are supposed to start pulling cards from the subdeck with the second half of the 
+cards in it. In this result the last cards will be 52 followed by 26. The assignment again asked 
+us questions based off our results.
+
+To see the questions that we were asked and to get more information about the program expectations
+and calculations, please refer to Program I.pdf in this repository.
+
+To run this program you might have to pip install python's "matplotlib.pyplot" library to get the 
+program to function properly. I ran mine on VS Code however it shouldn't have any issues running on 
+any other IDE, but hasn't been tested.
