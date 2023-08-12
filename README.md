@@ -52,4 +52,9 @@ This repository compiles the coursework completed during the Probability and Sta
 <ul> 
     <li>Joshua Patton
     <li>Vaishak Menon
-</ul>
+</ul><br><br>
+
+<h2></h2>
+<footer>
+    <b>Note:</b> The content in this repository represents the coursework completed during the <b>Probability and Statistics in Computer Science</b> course at UAB. The projects and assignments were designed to apply statistical concepts in practical computer science scenarios, fostering a deeper understanding of both fields.
+</footer>
